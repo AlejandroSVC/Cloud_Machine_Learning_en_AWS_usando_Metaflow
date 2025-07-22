@@ -1,7 +1,6 @@
 # Xgboost en AWS usando Metaflow
 
-"""
-clasificación binaria XGBOost mínima, robusta y escalable en AWS usando Metaflow y Pyspark.
+Clasificación binaria XGBOost mínima, robusta y escalable en AWS usando Metaflow y Pyspark.
 
 Este código implementa un clasificador binario con xgboost, utilizando Metaflow para la orquestación del flujo de trabajo y Pyspark para el procesamiento de datos distribuidos. Utiliza una lógica condicional para adaptar el enfoque según el tamaño de la base de datos y sigue las mejores prácticas recomendadas de Metaflow para entrenamiento distribuido escalable.
 
@@ -10,8 +9,9 @@ Documentación de referencia:
 - Metaflow: https://docs.metaflow.org/
 - PySpark: https://spark.apache.org/docs/latest/api/python/
 - XGBoost: https://xgboost.readthedocs.io/
-"""
+
 Clasificación Binaria Escalable con XGBoost en AWS usando Metaflow y PySpark
+
 Importar librerías
 ```
 from metaflow import FlowSpec, step, Parameter, card, batch, resources, current  # Componentes de Metaflow
